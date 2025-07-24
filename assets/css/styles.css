@@ -109,6 +109,17 @@ img {
   font-weight: 600;
 }
 
+@media (max-width: 768px) {
+  .home1 {
+    flex-direction: column;
+  }
+  .home2{
+    width: 100% !important;
+  }
+
+}
+
+
 @media screen and (max-width: 768px) {
   .nav-menu {
     position: fixed;
@@ -121,6 +132,8 @@ img {
     transition: 0.5s;
   }
 }
+
+
 
 .nav-item {
   margin-bottom: 32px;
@@ -178,7 +191,17 @@ img {
 
   row-gap: 16px;
 }
-
+.home1{
+  width: 85%;
+  margin: auto;
+  margin-top: 75px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.home2{
+  width: 50%;
+}
 .home-data {
   align-self: center;
 }
